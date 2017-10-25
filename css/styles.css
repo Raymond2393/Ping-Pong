@@ -19,4 +19,27 @@ nav h3 {
     color: #131212;
 }
 
+
 .w3-sidebar{background-color: #abd689;width: 50px;
+
+}
+#pew{
+  background-color: lightgrey;
+}
+body {
+  background-color: #ededed;
+}
+h3 {
+  color: #ffe8a7;
+}
+
+h2{
+  color:  #ffe8a7;
+}
+h4 {
+  color: white;
+}
+p1 {
+  color: black;
+  font-size: 25px;
+}
