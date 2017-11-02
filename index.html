@@ -1,0 +1,50 @@
+  <html>
+    <head>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+      <link rel="stylesheet" href="css/bootstrap.css">
+      <link rel="stylesheet" href="css/styles.css">
+      <meta charset="utf-8">
+      <title>Ping Pong</title>
+    </head>
+    <body>
+        <nav>
+            <h3><strong>Ping-Pong</strong></h3>
+        </nav><br><br>
+        <div class="w3-sidebar w3-bar-block" style="width:25%">
+            <h1>About Ping Pong</h1>
+            <h3>Created by:</h3>
+            <h4>Raymond Okwenda</h4>
+            <h2>GitHub Username/URL</h2>
+            <h5><strond>greensaber</strong></h5>
+            <h2>Level 2 Test for:</h2>
+            <h4>java</h4>
+        </div>
+        <div style="margin-left:25%">
+    <div class="w3-container">
+      <h1>Let's play!</h1>
+      <p>Rules:</p>
+      <p>Ping Pong will count up to your number from 1 with the following exceptions:</p>
+      <ol>
+        <li>Numbers divisible by 3 become "ping"</li>
+        <li>Numbers divisible by 5 become"pong"</li>
+        <li>Numbers divisible by 5 and 3 become"pingpong"</li>
+      </ol>
+      <form class="form-horizontal" id="play">
+        <!-- <form name="divisible" countUp="return onCountUp()"> -->
+           <div class="form-group">
+             <p>Enter your number here:</p>
+             <input type="number" value="" class="form-control" id="numeral"><br/>
+             <button type="submit" class="btn button-primary" name="button"><strong>Ping Pong</strong></button>
+           </div>
+         <!-- </form> -->
+       </form>
+        </div>
+  <div>
+    <p id="output"></p>
+  </div>
+    </div>
+       <script src="js/jquery-3.2.1.js"></script>
+       <script src="js/scripts.js"></script>
+    </body>
+  </html>
